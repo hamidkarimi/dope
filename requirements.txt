@@ -3,4 +3,4 @@ numpy
 pytorch
 dgl
 sklearn
-import RGCN
+
