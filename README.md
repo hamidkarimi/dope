@@ -8,7 +8,7 @@
 `pip install -r requirements.txt`
 2.Copy the project in a directory in your machine e.g., /home/XYZ/. Note that the dataset is in `Data/data.csv`
 
-3. To run the experiment call `train.py`
+3. To run an experiment call `train.py`
     
     **Example** `python train.py --path /home/XYZ/ --experiment_name experiment1 --training_courses SS2,ST1 --testing_courses SS2,ST1 --training_periods 2013B,2013J --testing_periods 2014B,2014J`
     
@@ -23,10 +23,15 @@ If you use the code in this repository, please cite the following paper
 
 
 @inproceedings{karimi2020edm,
+
   title={Online Academic Course Performance Prediction using Relational Graph Convolutional Neural Network},
+  
   author={Karimi, Hamid and Derr, Tyler and Huang, Jiangtao and Tang, Jiliang},
+  
   booktitle={Proceedings of The 13th International Conference on Educational Data Mining (EDM 2020)},
+  
   pages={444--460},
+  
   year={2020}
 }
 
