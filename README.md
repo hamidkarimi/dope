@@ -6,7 +6,8 @@
 ## Instructions 
 1. Make sure requirements are satisfied
 `pip install -r requirements.txt`
-2.Copy the project in a directory in your machine e.g., /home/XYZ/. Note that the dataset is in `Data/data.csv`
+
+2.Copy the project in a directory on your machine e.g., /home/XYZ/. Note that the dataset is in `Data/data.csv`
 
 3. To run an experiment call `train.py`
     
