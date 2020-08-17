@@ -18,7 +18,7 @@
      
     **Note 2.** Please refer to `config.py` for different parameters.
      
-## Citations
+## Citation
 
 If you use the code in this repository, please cite the following paper
 
