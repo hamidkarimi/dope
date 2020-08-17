@@ -1,6 +1,4 @@
-os
-numpy
-pytorch
-dgl
-sklearn
-
+numpy==1.18.1
+torch==1.5.1+cpu
+dgl==0.4.3.post2
+scikit-learn==0.23.1
