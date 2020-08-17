@@ -1,4 +1,4 @@
-## This reposity holds the code for paper Online Academic Course Performance Prediction using Relational Graph Convolutional Neural Network [DOPE](https://educationaldatamining.org/files/conferences/EDM2020/papers/paper_45.pdf) 
+## This reposity holds the code for the paper Online Academic Course Performance Prediction using Relational Graph Convolutional Neural Network [DOPE](https://educationaldatamining.org/files/conferences/EDM2020/papers/paper_45.pdf) 
 
 ![DOPE](http://cse.msu.edu/~karimiha/images/dope.jpg)
 
@@ -13,7 +13,7 @@
     **Example** `python train.py --path /home/XYZ/ --experiment_name experiment1 --training_courses SS2,ST1 --testing_courses SS2,ST1 --training_periods 2013B,2013J --testing_periods 2014B,2014J`
     
     
-    **Note 1.** input courses and periods are seperated by comma (if more than one is intended)
+    **Note 1.** Input courses and periods are seperated by comma (if more than one course/period is intended).
      
     **Note 2.** Please refer to `config.py` for different parameters.
      
@@ -32,4 +32,5 @@ If you use the code in this repository, please cite the following paper
 
 ## Contact
 Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
+
 Email: [karimiha@msu.edu](karimiha@msu.edu)
