@@ -9,10 +9,11 @@
 2.Copy the project in a directory in your machine e.g., /home/XYZ/. Note that the dataset is in `Data/data.csv`
 
 3. To run the experiment call `train.py`
+    
     **Example** `python train.py --path /home/XYZ/ --experiment_name experiment1 --training_courses SS2,ST1 --testing_courses SS2,ST1 --training_periods 2013B,2013J --testing_periods 2014B,2014J`
     **Note 1.** input courses and periods are seperated by comma (if more than one is intended)
      
-     **Note 2.** Please refer to `config.py` for different parameters.
+    **Note 2.** Please refer to `config.py` for different parameters.
      
 ## Citations
 
