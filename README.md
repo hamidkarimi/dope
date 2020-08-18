@@ -2,6 +2,7 @@
 
 ![DOPE](http://cse.msu.edu/~karimiha/images/dope.jpg)
 
+Presenation: https://youtu.be/xrwxIALtHrc
 
 ## Instructions 
 
