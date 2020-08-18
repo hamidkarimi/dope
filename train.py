@@ -23,7 +23,7 @@ with open(save_dir+'config.txt','w') as fp:
     for key in args_dict:
         fp.write("{}:{}\n".format(key,args_dict[key]))
 
-#Course names are different in the dataset. We encoded them to reflect their type (Social Science or STEM)
+#Course names are different in the dataset. We encoded them to reflect their type (i.e., Social Science or STEM)
 course_map={'SS1':'AAA', 'SS2':'BBB', 'SS3':'GGG', 'ST1':'DDD', 'ST2':'CCC', 'ST3':'EEE', 'ST4':'FFF'}
 
 print("Training courses {} Training periods {}".format(args.training_courses,args.training_periods))
@@ -130,6 +130,8 @@ def train():
     train_graph.add_edges(train_edge_dst, train_edge_src, {"norm": train_edge_norm, "type": train_edge_type})
     train_graph.set_n_initializer(dgl.init.zero_initializer)
     train_y =torch.LongTensor(train_edges[:,2].flatten().astype(int)).to(device)
+    
+    ############## Test graph construction #########################
 
     test_graph = DGLGraph()
     test_graph.add_nodes(len(N))
