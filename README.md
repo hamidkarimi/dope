@@ -1,8 +1,9 @@
 ## This reposity holds the code for the paper [Online Academic Course Performance Prediction using Relational Graph Convolutional Neural Network](https://educationaldatamining.org/files/conferences/EDM2020/papers/paper_45.pdf) 
 
+[Presentation] (https://youtu.be/xrwxIALtHrc)
+
 ![DOPE](http://cse.msu.edu/~karimiha/images/dope.jpg)
 
-Presenation: https://youtu.be/xrwxIALtHrc
 
 ## Instructions 
 
