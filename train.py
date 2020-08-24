@@ -177,7 +177,7 @@ def run_simulation():
             performance_file.write("conf_matrix:\n{}\n".format(conf_matrix))
             print("Test : {}".format(f1))
             return f1
-    def run_training():
+    def train():
         model.train()
         optimizer = optim.Adam(model.parameters(), lr=args.learning_rate, weight_decay=args.weight_decay)
         scheduler = StepLR(optimizer, step_size=100, gamma=0.99)
