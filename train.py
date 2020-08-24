@@ -113,7 +113,7 @@ node_features =N
 use_cuda = args.use_coda and torch.cuda.is_available()
 device = torch.device("cuda" if use_cuda else "cpu")
 
-def train():
+def run_simulation():
     ############## Train graph construction #########################
     train_graph = DGLGraph()
     train_graph.add_nodes(len(N))
@@ -197,8 +197,8 @@ def train():
                       format(step, loss.data, train_f1))
                 model.train()
         torch.save(model.state_dict(), save_dir + 'model.m')
-    run_training()
+    train()
     test()
 
-train()
+run_simulation()
 
