@@ -25,12 +25,12 @@ If you use the code in this repository, please cite the following paper
 
 @inproceedings{karimi2020edm,
   title={Online Academic Course Performance Prediction using Relational Graph Convolutional Neural Network},
-  author={Karimi, Hamid and Derr, Tyler and Huang, Jiangtao and Tang, Jiliang},
+  author={Karimi*, Hamid and Derr*, Tyler and Huang, Jiangtao and Tang, Jiliang},
   booktitle={Proceedings of The 13th International Conference on Educational Data Mining (EDM 2020)},
   pages={444--460},
   year={2020}
 }
-
+*Equal contribution and co-first author
 ## Contact
 Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
 
