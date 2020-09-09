@@ -30,7 +30,9 @@ If you use the code in this repository, please cite the following paper
   pages={444--460},
   year={2020}
 }
+
 *Equal contribution and co-first author
+
 ## Contact
 Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
 
