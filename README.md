@@ -34,6 +34,6 @@ If you use the *code* or *data* in this repository, please cite the following pa
 *Equal contribution and co-first author
 
 ## Contact
-Web page: [http://cse.msu.edu/~karimiha/](http://cse.msu.edu/~karimiha/)
+Web page: [hamidkarimi.com](hamidkarimi.com)
 
 Email: [hamid.karimi@usu.edu](hamid.karimi@usu.edu)
