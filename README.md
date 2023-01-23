@@ -20,7 +20,7 @@
      
 ## Citation
 
-If you use the code in this repository, please cite the following paper
+If you use the *code* or *data* in this repository, please cite the following paper
 
 
 @inproceedings{karimi2020edm,
